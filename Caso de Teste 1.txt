@@ -1,0 +1,9 @@
+Cenário: Logar usuário com sucesso
+
+Dado que eu esteja na tela de principal
+Quando eu acesso o menu Sign in
+Então o sistema exibe formulario
+E eu preencho o campo Longin com o valor Julio0001
+E eu preencho o campo Password com o valor 123456
+E eu clico no texto Sign in
+Então o sistema exibe a mensagem “Hi, Julio”.
